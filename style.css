@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Kaushan Script', cursive;
+   font-family: 'Lavishly Yours', cursive;
+   font-family: 'Lobster', cursive;
+   font-family: 'Oooh Baby', cursive;
+   font-family: 'Reenie Beanie', cursive;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Rubik', sans-serif;
+   font-family: 'Secular One', sans-serif;
+  font-family: 'Splash', cursive;
+  font-family: 'Work Sans', sans-serif;
+}
+
+img{
+   max-width: 100%;
+}
+
+/*part-1 */
+.top-banner{
+    background-image: url(images/donation2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 0;
+    
+
+}
+.banner-section{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.banner-section h1{
+    font-size: 80px;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.banner-section p{
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    color: orange;
+}
+.banner-section button{
+    color: white;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.798), rgba(0, 0, 255, 0.918));
+    padding: 20px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 1vh;
+
+}
+
+/*part-2 */
+.container-div h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.container-div p{
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+}
+.amount-section{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.div-1{
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-left: 15px;
+    padding: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: none;
+    color: rgba(0, 0, 0, 0.423);
+    background-color: #60606012;
+    border-radius: 10px;
+    transition: .4s ease-in;
+}
+.div-1:hover{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(128, 128, 128, 0.403) rgb(255, 99, 71));
+}
+.colors{
+    background-color: rgba(255, 0, 0, 0.088);
+    border: 3px solid red;
+}
+
+.oather-amounts{
+    color: #6060609c;
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    width: 60%;
+    color: rgba(0, 0, 0, 0.359);
+}
+.btn-button{
+    text-align: center;
+}
+.btn-buttons{
+    padding: 20px 70px;
+    background-color: rgba(0, 128, 0, 0.848);
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    transition: .4s ease-in-out;
+}
+.btn-buttons.btn-buttons:hover{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.51), rgba(0, 0, 128, 0.373));
+    color: rgba(221, 221, 221, 0.446);
+}
+
+/* part-3 */
+.text-contant h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.text-contant {
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.img-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.card-1{
+   box-sizing: border-box;
+   border: 1px solid gray;
+   margin-left: 20px;
+   padding: 50px;
+    background-color: rgba(0, 0, 255, 0.274);
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.card-2{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding: 50px;
+     background-color: rgba(0, 128, 0, 0.347);
+     font-size: 30px;
+     border: none;
+     border-radius: 10px;
+ }
+ .card-3{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-left: 20px;
+    padding: 50px;
+     background-color: rgba(255, 0, 0, 0.382);
+     font-size: 30px;
+     border: none;
+     border-radius: 10px;
+    
+ }
+ 
+
+ /*part-4 */
+
+ .other-section{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+ }
+
+ .other-text{
+    width: 60%;
+    margin-left: 10%;
+    font-size: 30px;
+    
+ }
+ .other-texts{
+    width: 70%;
+    font-size: 30px;
+    margin-right: 100px;
+ }
+
+
+ .other-img img{
+    width: 50% 0;
+    margin-top: 80px;    
+    font-size: 100px;
+    border-radius: 20px;
+    
+ }
+
+ .btns-buttons{
+    color: rgba(255, 255, 255, 0.591);
+    
+    background-image: linear-gradient(cornflowerblue, darkmagenta );
+    padding: 21px 41px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.btns-buttons:hover{
+    background-image: linear-gradient(rgb(0, 128, 0), rgba(0, 0, 128, 0.804));
+    
+    color: rgba(0, 0, 0, 0.541);
+}
+
+
+/* part-5 */
+.contact-section-text h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.contact-section-text p{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contact-section-form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.166);
+    padding: 7%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.contact-section-form input{
+    padding: 20px 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.245);
+}
+.contact-section-form button{
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgba(255, 0, 0, 0.733);
+    border: none;
+    margin-left: -7px;
+    border-radius: 3px;
+}
+
+/* footer-section */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 10px;
+}
+footer h1{
+    color: crimson;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+footer p{
+    color: rgba(240, 248, 255, 0.548);
+    font-size: 30px;
+    text-align: center;
+}
+footer h5{
+    color: rgba(255, 166, 0, 0.845);
+    font-size: 30px;
+    text-align: right;
+}
+
+
+ 
